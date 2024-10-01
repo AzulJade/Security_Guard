@@ -23,13 +23,12 @@ anchor_left = 0.075
 anchor_top = -0.1
 anchor_right = 0.106
 anchor_bottom = -0.07
-offset_left = -431.224
-offset_top = 176.04
-offset_right = -69.224
-offset_bottom = 269.04
+offset_left = -287.4
+offset_top = 132.8
+offset_right = 74.6
+offset_bottom = 225.8
 theme_override_font_sizes/font_size = 50
-text = "HEY"
-placeholder_text = "HEY "
+placeholder_text = "[ //command ]"
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 tile_set = SubResource("TileSet_8d26j")
@@ -48,3 +47,65 @@ script = ExtResource("3_a8w33")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_dcrxi")
+
+[node name="Map_size" type="Node2D" parent="."]
+
+[node name="A_column" type="Node2D" parent="Map_size"]
+
+[node name="1" type="Node2D" parent="Map_size/A_column"]
+
+[node name="2" type="Node2D" parent="Map_size/A_column"]
+
+[node name="3" type="Node2D" parent="Map_size/A_column"]
+
+[node name="4" type="Node2D" parent="Map_size/A_column"]
+
+[node name="5" type="Node2D" parent="Map_size/A_column"]
+
+[node name="B_column" type="Node2D" parent="Map_size"]
+
+[node name="1" type="Node2D" parent="Map_size/B_column"]
+
+[node name="2" type="Node2D" parent="Map_size/B_column"]
+
+[node name="3" type="Node2D" parent="Map_size/B_column"]
+
+[node name="4" type="Node2D" parent="Map_size/B_column"]
+
+[node name="5" type="Node2D" parent="Map_size/B_column"]
+
+[node name="C_column" type="Node2D" parent="Map_size"]
+
+[node name="1" type="Node2D" parent="Map_size/C_column"]
+
+[node name="2" type="Node2D" parent="Map_size/C_column"]
+
+[node name="3" type="Node2D" parent="Map_size/C_column"]
+
+[node name="4" type="Node2D" parent="Map_size/C_column"]
+
+[node name="5" type="Node2D" parent="Map_size/C_column"]
+
+[node name="D_column" type="Node2D" parent="Map_size"]
+
+[node name="1" type="Node2D" parent="Map_size/D_column"]
+
+[node name="2" type="Node2D" parent="Map_size/D_column"]
+
+[node name="3" type="Node2D" parent="Map_size/D_column"]
+
+[node name="4" type="Node2D" parent="Map_size/D_column"]
+
+[node name="5" type="Node2D" parent="Map_size/D_column"]
+
+[node name="E_column" type="Node2D" parent="Map_size"]
+
+[node name="1" type="Node2D" parent="Map_size/E_column"]
+
+[node name="2" type="Node2D" parent="Map_size/E_column"]
+
+[node name="3" type="Node2D" parent="Map_size/E_column"]
+
+[node name="4" type="Node2D" parent="Map_size/E_column"]
+
+[node name="5" type="Node2D" parent="Map_size/E_column"]
